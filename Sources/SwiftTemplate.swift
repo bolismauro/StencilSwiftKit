@@ -48,7 +48,6 @@ func stencilSwiftExtension() -> Extension {
   namespace.registerTag("macro", parser: MacroNode.parse)
   namespace.registerTag("call", parser: CallNode.parse)
   namespace.registerFilter("swiftIdentifier", filter: StringFilters.stringToSwiftIdentifier)
-  namespace.registerFilter("join", filter: ArrayFilters.join)
   namespace.registerFilter("lowerFirstWord", filter: StringFilters.lowerFirstWord)
   namespace.registerFilter("snakeToCamelCase", filter: StringFilters.snakeToCamelCase)
   namespace.registerFilter("snakeToCamelCaseNoPrefix", filter: StringFilters.snakeToCamelCaseNoPrefix)
