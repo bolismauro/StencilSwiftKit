@@ -1,0 +1,15 @@
+// map items1
+{% map items1 with item set mapped1 %}
+	- {{item}}
+{% endmap %}
+
+// map items2
+{% map items2 with item set mapped2 %}"{{item}}", {% endmap %}
+
+Value of mapped1:
+{% for item in mapped1 %}
+{{item}}
+{% endfor %}
+
+Value of mapped2:
+{% for item in mapped2 %}{{item}}{% endfor %}

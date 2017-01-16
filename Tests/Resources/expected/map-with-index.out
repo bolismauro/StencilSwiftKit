@@ -1,0 +1,11 @@
+// map items1
+
+// map items2
+
+Value of mapped1:
+	- #0: one (first: true, last: false)
+	- #1: two (first: false, last: false)
+	- #2: three (first: false, last: true)
+
+Value of mapped2:
+hello world everyone!

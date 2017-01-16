@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82EF0CC0752D216C67279A16 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF798509C76E5A9ACE03491 /* Pods_Tests.framework */; };
+		DD4393FF1E2D3EEB0047A332 /* MapNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4393FE1E2D3EEB0047A332 /* MapNodeTests.swift */; };
 		DD5F341B1E21993A00AEB5DA /* TestsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5F341A1E21993A00AEB5DA /* TestsHelper.swift */; };
 		DD5F34251E219A7200AEB5DA /* expected in Resources */ = {isa = PBXBuildFile; fileRef = DD5F34231E219A7200AEB5DA /* expected */; };
 		DD5F34261E219A7200AEB5DA /* fixtures in Resources */ = {isa = PBXBuildFile; fileRef = DD5F34241E219A7200AEB5DA /* fixtures */; };
@@ -55,6 +56,7 @@
 		47888DD528DEC4C84FD8F15B /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B3D39DBCD15D8F6BB891D92 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8BF798509C76E5A9ACE03491 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4393FE1E2D3EEB0047A332 /* MapNodeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapNodeTests.swift; sourceTree = "<group>"; };
 		DD5F341A1E21993A00AEB5DA /* TestsHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestsHelper.swift; sourceTree = "<group>"; };
 		DD5F34201E2199ED00AEB5DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD5F34231E219A7200AEB5DA /* expected */ = {isa = PBXFileReference; lastKnownFileType = folder; path = expected; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		DD5F34291E21A3A200AEB5DA /* TestSuites */ = {
 			isa = PBXGroup;
 			children = (
+				DD4393FE1E2D3EEB0047A332 /* MapNodeTests.swift */,
 				DD5F342A1E21A3A200AEB5DA /* CallNodeTests.swift */,
 				DD5F342B1E21A3A200AEB5DA /* SetNodeTests.swift */,
 				DD5F342C1E21A3A200AEB5DA /* StringFiltersTests.swift */,
@@ -273,6 +276,7 @@
 			files = (
 				DD5F342F1E21A3A200AEB5DA /* SetNodeTests.swift in Sources */,
 				DD5F34311E21A3A200AEB5DA /* SwiftIdentifierTests.swift in Sources */,
+				DD4393FF1E2D3EEB0047A332 /* MapNodeTests.swift in Sources */,
 				DD5F341B1E21993A00AEB5DA /* TestsHelper.swift in Sources */,
 				DD5F34301E21A3A200AEB5DA /* StringFiltersTests.swift in Sources */,
 				DD5F342E1E21A3A200AEB5DA /* CallNodeTests.swift in Sources */,

@@ -1,0 +1,15 @@
+// map items1
+{% map items1 with item set mapped1 %}
+	- #{{maploop.counter}}: {{item}} (first: {{maploop.first}}, last: {{maploop.last}})
+{% endmap %}
+
+// map items2
+{% map items2 with item set mapped2 %}{{item}}{% if maploop.last %}!{% else %} {% endif %}{% endmap %}
+
+Value of mapped1:
+{% for item in mapped1 %}
+{{item}}
+{% endfor %}
+
+Value of mapped2:
+{% for item in mapped2 %}{{item}}{% endfor %}
