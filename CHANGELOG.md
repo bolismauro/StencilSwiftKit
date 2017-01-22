@@ -8,6 +8,9 @@
 
 ### New Features
 
+* Removed the `join` filter, as it's now integrated in `Stencil` proper.  
+  [#10](https://github.com/SwiftGen/StencilSwiftKit/pull/10)
+
 ### Internal Changes
 
 
