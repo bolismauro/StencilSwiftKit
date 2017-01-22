@@ -10,6 +10,8 @@
 
 ### Internal Changes
 
+* Add a "parameters parser" able to transform parameters passed as a set of strings (`a=1 b.x=2 b.y=3 c=4 c=5`) — typically provided as the command line arguments of a CLI — into a Dictionary suitable for Stencil contexts.  
+  [#8](https://github.com/SwiftGen/StencilSwiftKit/pull/8)
 
 ## Before 5.0.0
 
