@@ -8,8 +8,8 @@
 
 ### New Features
 
-* Aded `MapNode` to apply a `map` operator to an array.
-  You can now use `{% map someArray with item set result %}`
+* Added `MapNode` to apply a `map` operator to an array.
+  You can now use `{% map someArray into result using item %}`
   to do the equivalent of the `result = someArray.map { item in … }` Swift code.  
   [#11](https://github.com/SwiftGen/StencilSwiftKit/pull/11)
 
