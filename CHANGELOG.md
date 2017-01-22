@@ -10,6 +10,8 @@
 
 ### Internal Changes
 
+* Added documentation for `macro`, `call` and `set` tags.  
+  [#12](https://github.com/SwiftGen/StencilSwiftKit/pull/12)
 
 ## Before 5.0.0
 
