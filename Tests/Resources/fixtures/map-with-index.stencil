@@ -1,10 +1,10 @@
 // map items1
-{% map items1 with item set mapped1 %}
-	- #{{maploop.counter}}: {{item}} (first: {{maploop.first}}, last: {{maploop.last}})
+{% map items1 into mapped1 %}
+	- #{{maploop.counter}}: {{maploop.item}} (first: {{maploop.first}}, last: {{maploop.last}})
 {% endmap %}
 
 // map items2
-{% map items2 with item set mapped2 %}{{item}}{% if maploop.last %}!{% else %} {% endif %}{% endmap %}
+{% map items2 into mapped2 using item %}{{item}}{% if maploop.last %}!{% else %} {% endif %}{% endmap %}
 
 Value of mapped1:
 {% for item in mapped1 %}
