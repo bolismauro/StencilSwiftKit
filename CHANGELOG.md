@@ -10,6 +10,9 @@
 
 ### Internal Changes
 
+* Refactor stencil swift extensions registration for easier use with an existing `Extension`.  
+  [David Jennes](https://github.com/djbe)
+  [#16](https://github.com/SwiftGen/StencilSwiftKit/issues/16)
 
 ## Before 5.0.0
 
